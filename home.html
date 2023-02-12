@@ -1,30 +1,47 @@
 <!DOCTYPE html>
 <Html lang="es">
+
     <head> 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title> Mighty Ducks Hockey League</title>
-        <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./styles.css">
     </head>
+<body>
 
 <header> 
+    <div class="banner">
+
+    <div class="bannerimg">
     <h1> Mighty Ducks Hockey League</h1>
-    <img src="assets/Logo_Mighty_ducks-01.png" width="200" alt="logo mighty ducks">
-   <nav> 
-        <a href="#">Home</a>
-        <a href="/about.html">About</a>
-        <a href="/contact.html">Contact us</a>
-    </nav>
+    </div>
+
+    <div class="bar-and-logo">
+        <h2> Upcoming Events </h2>
+        <img src="assets/Logo_Mighty_ducks-01.png" class="logo" width="150" alt="logo mighty ducks">
+    
+    </div>     
+
+</div>
 </header>
 
 <main>
-
  
-    <section>
-        <img src="assets/img/hockey_1.jpg" width="500" alt="Hockey image">
-  
-        <h3>Upcoming Events</h3>
+    <section class="wrapper">
 
+        <div class="nav">
+            <nav> 
+            <a href="/home.html">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+        </nav>
+
+    </div>
+
+        <img src="assets/img/hockey_1.jpg" alt="Hockey image" class="bgsection">
+  
+        <div class="data">
         <article> 
             <h4>August 4</h4>
             <p>MDSL Fundraiser</p>
@@ -39,8 +56,9 @@
         <h4>September 1</h4>
         <p>First Game of the Season (Check Game Schedule for details)</p>  
         </article>  
-
+    </div>
     </section>
 
 </main>
+</body>
 </html>
