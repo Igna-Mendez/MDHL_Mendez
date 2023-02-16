@@ -1,17 +1,19 @@
-*{
-  
+* {
+
     font-family: 'Verdana', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
-body{
+body {
     margin: 0;
+
 }
+
 .bar-and-logo {
     display: flex;
     background-color: rgb(0, 0, 0, .7);
     height: 50px;
     font-size: x-large;
-   
+
 }
 
 .logo {
@@ -21,7 +23,7 @@ body{
     width: 7rem;
     height: 7rem;
     margin-left: 5rem;
-
+    z-index: 1;
 }
 
 .bannerimg {
@@ -37,8 +39,9 @@ h1 {
     margin-left: 5%;
     font-size: 3vw;
     width: fit-content;
-    
-    background-color: rgba(255, 255, 255, 0.5);;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    ;
 }
 
 .banner {
@@ -54,32 +57,32 @@ h1 {
 }
 
 .nav {
-top: 0;
-padding: 3rem 1rem;
-height: 80%;
-display: flex;
-background-color: rgba(0, 0, 0, 0.2);
-font-size: 1.5rem;
+    top: 0;
+    padding: 3rem 1rem;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: fit-content;
 }
 
 h2 {
     margin: 0;
-    color:white;
+    color: #efbc2c;
     margin-left: 30vw;
 }
-nav a{
+
+nav a {
     display: flex;
     padding: 0 .3rem 2rem;
-    border: 1px solid;
-    border-color: black;
     text-decoration: none;
     margin: 0.5rem;
-    
+
 }
-nav a:hover{
-    color: green;
+
+nav a:hover {
+    color: #efbc2c;
     transform: scale(1.1);
 }
+
 .bgsection {
     position: absolute;
     top: 0;
@@ -87,42 +90,82 @@ nav a:hover{
     object-fit: cover;
     z-index: -1;
     display: block;
-    
+
 }
-article{
+
+article {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
+
 }
-.data{
-   
+
+.data {
+
     padding: 0 2rem;
-    
+
 }
-.pdata{
-    padding: 0 2rem;
+
+.pdata {
+
     top: 40%;
     left: 10%;
     font-size: initial;
     margin: 2rem;
 }
-a{
+
+a {
     color: white;
 }
-.bold{
+
+.bold {
     text-decoration: solid;
 }
 
-.gameinfo{
-    border:2px solid;
+.gameinfo {
+    border: 2px solid;
     border-color: black;
     margin: 3rem;
-    
+
 }
-.gameinfo td{
+
+.gameinfo td {
     border: 2px solid;
     margin: 40px;
     border-color: black;
 }
-.scheduledata th{
+
+.scheduledata th {
     text-align: start;
+}
+
+.signin {
+    padding: 0 2rem;
+    margin: 2rem;
+}
+
+label, input {
+    margin: 0.5rem;
+}
+
+p {
+    margin: 1rem;
+}
+
+h3, h4, sub {
+    margin: 0.5em;
+}
+.btnsub{
+    border: 5px solid;
+    border-radius: 30%;
+    width: 5rem;
+    height: 5rem;
+    
+   
+}
+
+.btnsub:hover{
+    background-color: black;  
+    border-color: #efbc2c;
+    color: white;
+   
 }
