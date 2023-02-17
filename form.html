@@ -72,7 +72,7 @@
                     <input type="radio" name="gender" value="female">
                     <label id="other">other</label>
                     <input type="radio" name="gender" value="other"><br>
-
+                    <fieldset>
                     <label id="Grade">Grade:</label>
                     <label id="pre-school">pre-school</label>
                     <input type="radio" name="Grade" value="pre-school">
@@ -85,24 +85,21 @@
                     <label id="4th">4th</label>
                     <input type="radio" name="Grade" value="4th">
                     <label id="5th">5th</label>
-                    <input type="radio" name="Grade" value="5th"><br>
+                    <input type="radio" name="Grade" value="5th"><br></fieldset>
 
-                    <h3>Which elementary school do you live near?</h3>
-                    <h4>Closest School:</h4>
-                    <label id="AJ-Katzenmaier">AJ Katzenmaier</label>
-                    <input type="radio" name="closest-school" value="AJ Katzenmaier">
-                    <label id="Marjorie-P-Hart">Marjorie P Hart</label>
-                    <input type="radio" name="closest-school" value="Marjorie P Hart"><br>
-
-                    <label id="Greenbay">Greenbay</label>
-                    <input type="radio" name="closest-school" value="Greenbay">
-                    <label id="North-Elementary">North Elementary</label>
-                    <input type="radio" name="closest-school" value="North Elementary"><br>
-
-                    <label id="Howard-A-Yeager">Howard A Yeager</label>
-                    <input type="radio" name="closest-school" value="Howard A Yeager">
-                    <label id="South-Elementary">South Elementary</label>
-                    <input type="radio" name="closest-school" value="South Elementary"><br>
+                    <fieldset>
+                        <h3>Which elementary school do you live near?</h3>
+                        <h4 for="nearest">Closest School:</h4>
+                        <select name="nearest" id="nearest">
+                        <option value="">Please Choose an option</option>
+                        <option value="katzenmaier">AJ Katzenmaier</option>
+                        <option value="greenbay">Greenbay</option>
+                        <option value="howard">Howard A Yeager</option>
+                        <option value="marjorie">Marjorie P Hart</option>
+                        <option value="north">North Elementary</option>
+                        <option value="south">South Elementary</option>
+                      </select>
+                    </fieldset>
 
                     <h3>What position(s) do you normally play?(check all that apply)</h3>
                     <label id="Forward">Forward</label>
